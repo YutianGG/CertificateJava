@@ -8,7 +8,7 @@ import javax.swing.JPanel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Test 
+public class JFrame02
 {
 	public static void main(String[] args)
 	{
