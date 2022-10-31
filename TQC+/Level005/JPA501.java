@@ -1,13 +1,14 @@
+package Level005;
 import java.util.Scanner;
 public class JPA501 {
 	public static void main(String args[])
 	{
 		int n = 0, sum = 0;
 		int[] number = new int[10];
-		System.out.println("½Ð¿é¤J10­Ó¾ã¼Æ¡G");
+		System.out.println("ï¿½Ð¿ï¿½J10ï¿½Ó¾ï¿½Æ¡G");
 		for(int i = 0;i < 10;i++) 
 		{
-			System.out.printf("²Ä%d­Ó¾ã¼Æ¡G", i + 1);
+			System.out.printf("ï¿½ï¿½%dï¿½Ó¾ï¿½Æ¡G", i + 1);
 			number[i] = new Scanner(System.in).nextInt();
 		}
 		for(int N : number)
@@ -18,7 +19,7 @@ public class JPA501 {
 				sum += N;
 			}
 		}
-			System.out.println("°}¦C¤¤¤j©ó60ªº¦³" + n + "­Ó\nÁ`¦X¬°" + sum + "\n¥­§¡­È¬°" + (sum / (double)n));
+			System.out.println("ï¿½}ï¿½Cï¿½ï¿½ï¿½jï¿½ï¿½60ï¿½ï¿½ï¿½ï¿½" + n + "ï¿½ï¿½\nï¿½`ï¿½Xï¿½ï¿½" + sum + "\nï¿½ï¿½ï¿½ï¿½ï¿½È¬ï¿½" + (sum / (double)n));
 	}
 }
 

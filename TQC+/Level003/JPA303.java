@@ -1,10 +1,12 @@
+package Level003;
+
 import java.util.Scanner;
 public class JPA303
 {
 	public static void main(String[] args)
 	{
 		int num, sum = 0;
-		System.out.printf("1~1000¤¤ªº§¹¬ü¼Æ¦³: ");
+		System.out.printf("1~1000ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¦ï¿½: ");
 		for (int i = 1; i <= 1000; i++)
 		{
 			num = i;
